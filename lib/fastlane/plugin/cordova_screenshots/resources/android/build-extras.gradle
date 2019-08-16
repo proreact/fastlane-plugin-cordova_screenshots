@@ -5,9 +5,9 @@ android {
 }
 
 dependencies {
-    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
 
-    androidTestCompile 'tools.fastlane:screengrab:1.0.0'
+    androidTestImplementation 'tools.fastlane:screengrab:1.0.0'
 }

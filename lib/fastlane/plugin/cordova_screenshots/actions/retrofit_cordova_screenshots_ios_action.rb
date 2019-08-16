@@ -161,7 +161,7 @@ module Fastlane
         #
         # Add files (fastlane configured UI Unit Tests) into target (via test group)
         #
-        UI.message("Adding Pre-Configured UI Unit Tests (*.plist and *.swift) to Test Group '#{scheme_name}'...")
+        UI.message("Adding Pre-Configured UI Unit Tests (*.swift) to Test Group '#{scheme_name}'...")
 
         files = []
         Dir["#{config_folder}*.swift"].each do |file| # config_folder ends with / already
